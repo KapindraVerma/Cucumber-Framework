@@ -1,0 +1,39 @@
+timeout: 50
+
+elements:
+  signInButton:
+    findBy: xpath
+    locator: /html/body/div[1]/div[1]/div/div/div/div/div[2]/a/span
+  createAccount:
+    findBy: xpath
+    locator: /html/body/div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[2]/div/div[2]/div/div/div[1]/div/button/span 
+  personalUse:
+    findBy: xpath
+    locator: /html/body/div[1]/div[1]/div[2]/div/c-wiz/div/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div/ul/li[1]/span[2] 
+  firstName:
+    findBy: id
+    locator: firstName
+  lastName:
+    findBy: id
+    locator: lastName 
+  nameButton:
+    findBy: xpath
+    locator: //*[text()='Next']
+  month:
+    findBy: id
+    locator: month
+  day:
+    findBy: id
+    locator: day  
+  year:
+    findBy: id
+    locator: year    
+  gender:
+    findBy: id
+    locator: gender  
+  lastText:
+    findBy: id
+    locator: headingText
+      
+    
+    

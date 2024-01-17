@@ -1,0 +1,19 @@
+timeout: 50
+
+elements:
+  signInHomePage:
+    findBy: xpath
+    locator: (//a[contains(text(),'Sign in')])[2]
+  emailField:
+    findBy: id
+    locator: login_field 
+  passwordField:
+    findBy: id
+    locator: password 
+  signInLoginPage:
+    findBy: name
+    locator: commit
+  
+
+    
+ 

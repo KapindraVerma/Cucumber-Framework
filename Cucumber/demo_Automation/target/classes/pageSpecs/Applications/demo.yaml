@@ -1,0 +1,14 @@
+timeout: 50
+
+elements:
+  homePage:
+    findBy: xpath
+    locator: //span[text()='Hello, Sign in']
+  optionsDisplayed:
+    findBy: xpath
+    locator: //*[contains(@class,'a-color-base a-text-normal')]
+
+    
+
+
+
